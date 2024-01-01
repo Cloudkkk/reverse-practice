@@ -1,0 +1,52 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-area textarea {
+  width: 600px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.translate-button {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.translate-button:hover {
+  background-color: #45a049;
+}
+
+.translate-button:active {
+  background-color: #3e8e41;
+}
+
+.translation-area {
+  width: 600px;
+  height: 200px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
