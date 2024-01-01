@@ -51,4 +51,4 @@ function n(t, e) {
     return t
 }
 const r = "320305.131321201";
-console.log(a('2345'))
+console.log(a('拉拉1'))
